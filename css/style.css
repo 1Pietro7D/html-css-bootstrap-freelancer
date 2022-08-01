@@ -1,0 +1,44 @@
+section {
+  height: 300px;
+}
+.debug-1 {
+  height: 100px;
+}
+
+/* DEBUG */
+:root {
+  --bg-brand-blue: hsl(210deg 29% 24%);
+  --bg-brand-green: hsl(168deg 76% 42%);
+  --bg-black-trasp: rgba(0, 0, 0, 0.3);
+}
+
+/* BACKGROUND */
+
+main section:nth-of-type(2n + 1) {
+  background-color: var(--bg-brand-green);
+}
+
+header,
+footer {
+  background-color: var(--bg-brand-blue);
+}
+
+#copyright {
+  background-color: var(--bg-black-trasp);
+}
+/* /BACKGROUND */
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+@media screen and (min-width: 800px) {
+  header a[href="#start-bootstrap"] {
+    font-size: 2rem !important;
+  }
+  header {
+    font-size: 1.5rem !important;
+  }
+}
