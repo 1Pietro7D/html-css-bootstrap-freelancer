@@ -19,7 +19,6 @@ main section:nth-of-type(2n + 1) {
 header,
 footer {
   background-color: var(--bg-brand-blue);
-  color: #fff;
 }
 
 #copyright {
@@ -58,9 +57,7 @@ header a {
   height: 3px;
   margin: 0 1rem;
 }
-.dp-gap-y-3 {
-  gap: 1.5rem 0;
-}
+
 .invert {
   filter: invert(1);
 }
