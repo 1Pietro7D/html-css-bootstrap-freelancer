@@ -21,7 +21,7 @@ footer {
   background-color: var(--bg-brand-blue);
 }
 
-#copyright {
+.dp-black-tr {
   background-color: var(--bg-black-trasp);
 }
 /* /BACKGROUND */
@@ -74,4 +74,13 @@ textarea {
   background-color: var(--bg-brand-green);
   color: #fff;
   text-transform: capitalize;
+}
+.dp-c-brand {
+  color: var(--bg-brand-green);
+}
+.dp-icon-square {
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
 }
