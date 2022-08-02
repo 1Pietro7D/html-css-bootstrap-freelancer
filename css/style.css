@@ -61,3 +61,17 @@ header a {
 .invert {
   filter: invert(1);
 }
+
+input:not(input[type="submit"]),
+textarea {
+  border: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #999 !important;
+  padding-left: 0 !important;
+}
+
+.dp-bg-brand {
+  background-color: var(--bg-brand-green);
+  color: #fff;
+  text-transform: capitalize;
+}

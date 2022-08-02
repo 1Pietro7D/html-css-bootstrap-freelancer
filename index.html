@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
+
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -209,36 +210,36 @@
             <!-- #endregion present about-->
 
             <form class="col-12 col-md-8" action="#">
-              <div class="mb-3">
-                <label for="nane-input" class="form-label">Name</label>
+              <div class="mb-3 form-floating">
                 <input
                   type="text"
                   class="form-control"
                   id="name-input"
                   placeholder="name"
                 />
+                <label for="nane-input" class="form-label">Name</label>
               </div>
-              <div class="mb-3">
-                <label for="email-input" class="form-label"
-                  >Email address</label
-                >
+              <div class="mb-3 form-floating">
                 <input
                   type="email"
                   class="form-control"
                   id="email-input"
                   placeholder="name@example.com"
                 />
-              </div>
-              <div class="mb-3">
-                <label for="number-phone-input" class="form-label">
-                  Phone number</label
+                <label for="email-input" class="form-label">
+                  Email address</label
                 >
+              </div>
+              <div class="mb-3 form-floating">
                 <input
                   type="number"
                   class="form-control"
                   id="number-phone-input"
                   placeholder="Phone number"
                 />
+                <label for="number-phone-input" class="form-label">
+                  Phone number</label
+                >
               </div>
               <div class="mb-3">
                 <label for="message-input" class="form-label"> Message</label>
@@ -251,7 +252,12 @@
                 </textarea>
               </div>
               <div class="mb-3">
-                <input id="submit" type="submit" value="send" />
+                <input
+                  class="btn dp-bg-brand not"
+                  id="submit"
+                  type="submit"
+                  value="send"
+                />
               </div>
             </form>
           </div>
@@ -264,8 +270,8 @@
 
     <!-- #region FOOTER -->
     <footer class="text-white">
-      <div class="debug-1"></div>
-      <div class="debug-1 align-self-end" id="copyright"></div>
+      <div class="p-4"></div>
+      <div class="p-4 align-self-end" id="copyright"></div>
     </footer>
     <!-- #endregion FOOTER -->
   </body>
